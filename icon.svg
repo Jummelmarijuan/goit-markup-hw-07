@@ -113,4 +113,20 @@
 <path d="M24 0L0 11.25L7.66994 13.6172L19.5 4.375L10.5017 14.4913L10.509 14.4936L10.5 14.4913V20L14.8013 15.8183L20.2501 17.5L24 0Z"/>
 </symbol>
 </defs>
+
+<symbol id="icon-menu" width="32" height="22" viewBox="0 0 32 22" fill="none">
+  <g clip-path="url(#clip0_297053_2156)">
+    <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_297053_2156">
+      <rect width="32" height="22" fill="white"/>
+    </clipPath>
+  </defs>
+</symbol>
+
+<symbol id="mobile-close" viewBox="0 0 32 32">
+      <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
+    </symbol>
+
 </svg>

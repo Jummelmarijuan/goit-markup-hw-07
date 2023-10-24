@@ -21,15 +21,15 @@
                 <a class="iris-logo" href="index.html">WEB<span class="header-text-logo-studio">STUDIO</span></a>
                 <ul class="nav-list">
                     <li class="nav-list-item">
-                        <a class="nav-list-item-link" href="index.html">Studio</a>
+                        <a class="nav-list-item-link" href="./index.html">Studio</a>
                     </li>
-
+    
                     <li class="nav-list-item">
                         <a class="nav-list-item-link nav-active" href="./portfolio.html">Portfolio</a>
                     </li>
-
+    
                     <li class="nav-list-item">
-                        <a class="nav-list-item-link" href="#footer">Contacts</a>
+                        <a class="nav-list-item-link" href="#">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -38,12 +38,78 @@
                     <li class="header-address-item">
                         <a class="header-address-link" href="mail:info@devstudio.com">info@devstudio.com</a>
                     </li>
-
+    
                     <li class="header-address-item">
                         <a class="header-address-link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
+    
+            <!-- hamburger -->
+            <button class="menu-btn menu-toggle js-open-menu" aria-expanded="false" aria-controls="mob-menu">
+                <svg width="32" height="22" class="menu-btn-icon">
+                    <use href="./icon.svg#icon-menu"></use>
+                </svg>
+            </button>
+    
+            <div class="mob-nav-container js-menu-container" id="mob-menu">
+                <button class="mob-menu-close menu-toggle js-close-menu" type="button">
+                    <svg width="8" height="8" class="mob-nav-close">
+                        <use href="icon.svg#mobile-close"></use>
+                    </svg>
+                </button>
+    
+                <ul class="mob-nav-menu">
+                    <li class="mob-nav-menu-item"><a class="mob-nav-menu-link mob-link"
+                            href="index.html">Studio</a></li>
+                    <li class="mob-nav-menu-item"><a class="mob-nav-menu-link mob-link mob-menu-active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="mob-nav-menu-item"><a class="mob-nav-menu-link mob-link" href="#">Contacts</a></li>
+                </ul>
+    
+                <div class="mob-nav-address-link">
+                    <ul class="mob-nav-address">
+                        <li class="mob-nav-address-item"><a class="mob-address-link highlight"
+                                href="tel:+11(000)111-11-11">+11 000 111 11 11</a></li>
+                        <li class="mob-nav-address-item"><a class="mob-address-info"
+                                href="mail:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+    
+                    <ul class="mob-nav-social-media-item">
+                        <li class="mob-nav-social-media-list">
+                            <a class="mob-nav-social-media-link" href="#">
+                                <svg class="mob-nav-social-media-icon">
+                                    <use href="./icon.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="mob-nav-social-media-list">
+                            <a class="mob-nav-social-media-link" href="#">
+                                <svg class="mob-nav-social-media-icon">
+                                    <use href="./icon.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="mob-nav-social-media-list">
+                            <a class="mob-nav-social-media-link" href="#">
+                                <svg class="mob-nav-social-media-icon">
+                                    <use href="./icon.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="mob-nav-social-media-list">
+                            <a class="mob-nav-social-media-link" href="#">
+                                <svg class="mob-nav-social-media-icon">
+                                    <use href="./icon.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -67,7 +133,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                             <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-1.jpg" alt="banking app" width="360"/>    
+                            <img class="card-list-img" src="./images/card-img-1.jpg" srcset="./images/card-img-1.jpg 1x, ./images/card-img-1@2x.jpg 2x" alt="banking app" width="360"/>    
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App
@@ -82,7 +148,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                        <img class="card-list-img" src="./images/card-img-2.jpg" alt="cashless payment" width="360" />
+                        <img class="card-list-img" src="./images/card-img-2.jpg" srcset="./images/card-img-2.jpg 1x, ./images/card-img-2@2x.jpg 2x" alt="cashless payment" width="360" />
                         <figcaption class="card-figcaption">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                             App · Cloud Storage App
@@ -97,7 +163,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-3.jpg" alt="meditation app" width="360" />
+                            <img class="card-list-img" src="./images/card-img-3.jpg" srcset="./images/card-img-3.jpg 1x, ./images/card-img-3@2x.jpg 2x" alt="meditation app" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -112,7 +178,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-4.jpg" alt="taxi service" width="360" />
+                            <img class="card-list-img" src="./images/card-img-4.jpg" srcset="./images/card-img-4.jpg 1x, ./images/card-img-4@2x.jpg 2x" alt="taxi service" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -127,7 +193,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-5.jpg" alt="screen illustrations" width="360" />
+                            <img class="card-list-img" src="./images/card-img-5.jpg" srcset="./images/card-img-5.jpg 1x, ./images/card-img-5@2x.jpg 2x" alt="screen illustrations" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -142,7 +208,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-6.jpg" alt="online courses" width="360" />
+                            <img class="card-list-img" src="./images/card-img-6.jpg" srcset="./images/card-img-6.jpg 1x, ./images/card-img-6@2x.jpg 2x" alt="online courses" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -157,7 +223,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-7.jpg" alt="instagram stories concept" width="360" />
+                            <img class="card-list-img" src="./images/card-img-7.jpg" srcset="./images/card-img-7.jpg 1x, ./images/card-img-7@2x.jpg 2x" alt="instagram stories concept" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -172,7 +238,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-8.jpg" alt="organic food" width="360" />
+                            <img class="card-list-img" src="./images/card-img-8.jpg" srcset="./images/card-img-8.jpg 1x, ./images/card-img-8@2x.jpg 2x" alt="organic food" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -187,7 +253,7 @@
                     <li class="card-list-item">
                         <a class="card-link" href="#">
                         <figure class="card-figure">
-                            <img class="card-list-img" src="./images/card-img-9.jpg" alt="fresh coffee" width="360" />
+                            <img class="card-list-img" src="./images/card-img-9.jpg" srcset="./images/card-img-9.jpg 1x, ./images/card-img-9@2x.jpg 2x" alt="fresh coffee" width="360" />
                             <figcaption class="card-figcaption">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -206,13 +272,13 @@
     <!-- Footer -->
     
     <footer class="footer">
-        <div class="footer-container container">
-            <div>
+        <div class="footer-container container try">
+            <div class="footer-text-logo-text">
                 <a class="iris-logo" href="#header">WEB<span class="footer-text-logo-studio">STUDIO</span></a>
                 <p class="footer-text">Increase the flow of customers and <br>sales for your business with
                     digital<br>marketing & growth solutions.</p>
             </div>
-            <div>
+            <div class="footer-social-media">
                 <h2 class="social-media-title">Social media</h2>
                 <ul class="footer-social-media-list">
                     <li class="footer-social-media-item">
@@ -245,10 +311,9 @@
                     </li>
                 </ul>
             </div>
-    
             <form action class="footer-email-form">
                 <div class="footer-subs-form">
-                    <h2 class="social-media-title">Subscribe</h2>
+                    <h2 class="social-media-title subs-title">Subscribe</h2>
                     <label class="footer-email">
                         <input class="email-box" type="email" name="email" placeholder="E-mail" required>
                     </label>
@@ -257,13 +322,16 @@
                 <div class="subs-btn-email">
                     <button class="subs-btn" type="submit">Subscribe
                         <svg class="subs-btn-icon">
-                            <use href="./icon.svg#subscribe"></use>
+                            <use href="./icon.svg#icon-subscribe"></use>
                         </svg>
                     </button>
                 </div>
             </form>
         </div>
     </footer>
+
+        <!-- script -->
+                <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
