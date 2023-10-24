@@ -451,6 +451,11 @@ address {
     background-color: var(--OCEAN);
 }
 
+.mob-address-info:hover,
+.mob-address-info:focus {
+    color: var(--OCEAN);
+}
+
 /* End of Header & Top Nav  */
 
 /* Hero Section */
