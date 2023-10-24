@@ -1,1 +1,1 @@
-# Module 6. Elements and form validation
+# Module 7. Adaptive layout. Adaptive graphics
