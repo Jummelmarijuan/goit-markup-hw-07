@@ -1464,6 +1464,7 @@ figure {
     border: 2px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
     border-radius: 2px;
     margin-right: 8px;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
